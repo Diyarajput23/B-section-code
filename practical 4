@@ -1,0 +1,104 @@
+<html>
+    <title>Practical 4</title>
+    <body style="background-color:steelblue;">
+        <h1 align="center"><u><b>RESUME</b></u></h1>
+        <hr>
+        <img src="C:\Users\Admin\Desktop/dphoto.JPG" height="200" width="200" align="right">
+        <ul>
+        <p><li><b>NAME</b>: Diya Rajput</li>
+        <br><li><b>ADDRESS</b>: Gajanan Society, Dattawadi,Nagpur,440023</li>
+        <br><li><b>MOBILE NO</b>: 9856374906</li>
+        <br><li><a href="diyabsrajput.cse24@sbjit.edu.in">Email id</a></li>
+        </ul>
+        <hr>
+
+        <b><u>PROFILE SUMMARY</u></b><hr>
+        <br>Greetings, Myself Diya Rajput I'm 19 years old , I'm currently pursuing my Btech Degree in 
+        <b>Computer Science</b> from <b><u>S.B.Jain Institute</u></b> <br>I have experience with several programming
+         languages, including Java,C and more.I'm particularly interested in artificial intelligence <br>and machine 
+         learning.
+        <br>
+        <br>
+        <hr>
+
+        <b><u>EDUCATION DETAILS</u></b><hr>
+        <br><table border="5" cellpadding="15" cellspacing="5">
+            <tr>
+                <th>Education</th>
+                <th>Board</th>
+                <th>Grade</th>
+                <th>From</th>
+            </tr>
+            <tr>
+                <td>10th</td>
+                <td>State Board</td>
+                <td>90.2</td>
+                <td>Jindal Public School</td>
+            </tr>
+            <tr>
+                <td>12th</td>
+                <td>State Board</td>
+                <td>75.5</td>
+                <td>Sandipani College</td>
+            </tr>
+        </table>
+        <br>
+        <hr>
+        <b><u>SKILLS TO PROVIDE</u></b><hr>
+        <ul>
+            <li><b>Hard</b></li>
+            <ol>
+                <li>Learned C</li>
+                <li>Java</li>
+                <li>Mastered Word</li>
+                <li>HTML</li>
+                <li>Advanced Excel</li>
+            </ol>
+        </ul>
+        <ul>
+            <li><b>Soft</b></li>
+            <ol>
+                <li>Analytical thinking Problem Solving</li>
+                <li>Communication</li>
+                <li>Time Managment</li>
+                <li>Presentation Skills</li>
+                <li>Tean Managment</li>
+                <li>Customer Acquisition</li>
+            </ol>
+        </ul>
+        <hr>
+        <b><u>HOBBIES</u></b>
+        <hr>
+        <br>
+        <ul>
+            <li>Learning Languages</li>
+            <li>Pohotography</li>
+            <li>Exercise</li>
+            <li>Writing and Blogging</li>
+        </ul>
+        <hr>
+        <b><u>CERTIFICATIONS</u></b>
+        <hr>
+        <br>I'm Certified in C programming language from Disha Institue 
+        <br><a href="C:\Users\Admin\Desktop\certified1.JPG">Tap here to see</a>
+        <br>I have HTML certification from my previous college Sandipani College
+        <br>I also did Masters in MS word again from Disha Institute
+        <br><a href="C:\Users\Admin\Desktop\certified2.JPG">Tap here to see</a> 
+        <br>
+        <hr>
+        <b><u>My Commitments</u></b>
+        <hr>
+        <ul>
+            <li>Dedication</li>
+            <li>Loyalty</li>
+            <li>Responsibility</li>
+            <li>Support the Organizations Goals and Values</li>
+            <li>Seeking opportunities for Improvement</li>
+        </ul>
+        <hr>
+    </p>
+    <img src="C:\Users\Admin\Desktop/dsign.JPG" height="50" width="150">
+    <br><b><u>Signature of Candidate</u></b>
+    <h3 align="right"><b>Date :</b>27/03/25</h3>
+    </body>
+</html>
