@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tribute to Dr. A.P.J. Abdul Kalam</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f0fa;
+      color: #333;
+    }
+
+    .header {
+      background-color: #7e57c2;
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      width: 250px;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    img:hover {
+      transform: scale(1.05);
+    }
+
+    h2 {
+      color: #7e57c2;
+      margin-top: 30px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    blockquote {
+      background-color: #ede7f6;
+      border-left: 5px solid #7e57c2;
+      padding: 10px 15px;
+      font-style: italic;
+      margin: 20px 0;
+    }
+
+    .timeline {
+      display: grid;
+      gap: 15px;
+      padding: 10px;
+      margin-top: 15px;
+    }
+
+    .timeline-card {
+      background-color: #f3e5f5;
+      padding: 15px;
+      border-left: 5px solid #7e57c2;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px 0;
+      background-color: #f0f0f0;
+      color: #555;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Dr. A.P.J. Abdul Kalam</h1>
+    <p>Missile Man of India</p>
+  </div>
+
+  <div class="main">
+    <img src="C:\Users\CSE LAB\Desktop/abdulkalam1.JFIF" alt="Dr. Kalam">
+
+    <h2>About</h2>
+    <p>
+      Dr. A.P.J. Abdul Kalam was a scientist, teacher, and the 11th President of India. He is remembered as the "Missile Man of India" for his great work in science and education.
+    </p>
+
+    <h2>Early Life</h2>
+    <p>
+      Born in 1931 in Rameswaram, Tamil Nadu, Kalam grew up in a humble family. He studied aerospace engineering and joined India’s top scientific organizations.
+    </p>
+
+    <h2>Life Timeline</h2>
+    <div class="timeline">
+      <div class="timeline-card"><strong>1931:</strong> Born in Rameswaram, Tamil Nadu.</div>
+      <div class="timeline-card"><strong>1960:</strong> Joined DRDO as a scientist.</div>
+      <div class="timeline-card"><strong>1969:</strong> Started working in ISRO and led the SLV-III project.</div>
+      <div class="timeline-card"><strong>1980:</strong> Successfully launched satellite Rohini.</div>
+      <div class="timeline-card"><strong>1998:</strong> Led Pokhran-II nuclear tests.</div>
+      <div class="timeline-card"><strong>2002:</strong> Became the 11th President of India.</div>
+      <div class="timeline-card"><strong>2015:</strong> Passed away while delivering a speech at IIM Shillong.</div>
+    </div>
+
+    <h2>Achievements</h2>
+    <ul>
+      <li>Developed India's missile systems: Agni and Prithvi.</li>
+      <li>Played key role in Pokhran-II nuclear tests.</li>
+      <li>Honored with Bharat Ratna, Padma Bhushan, and Padma Vibhushan.</li>
+      <li>Wrote inspiring books like <i>Wings of Fire</i>.</li>
+      <li>Encouraged youth to dream big and work hard.</li>
+    </ul>
+
+    <h2>Famous Quote</h2>
+    <blockquote>
+      "Dream is not that which you see while sleeping, it is something that does not let you sleep."
+    </blockquote>
+
+    <h2>Legacy</h2>
+    <p>
+      Dr. Kalam’s life is an inspiration to all. Even after his passing, his vision for a strong and educated India lives on. He is remembered as the People’s President and a humble hero.
+    </p>
+
+    <footer>
+      Created with 💜 as a tribute to Dr. A.P.J. Abdul Kalam
+    </footer>
+  </div>
+
+</body>
+</html>
