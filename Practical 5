@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scholarship Application Form</title>
+</head>
+<body>
+
+  <h1 align="center">Scholarship Application Form</h1>
+
+  <form action="#" method="post" enctype="multipart/form-data">
+
+    <table border="0" width="80%" align="center" cellpadding="10">
+
+      <tr>
+        <td>Full Name:</td>
+        <td><input type="text" name="fullname" required></td>
+      </tr>
+
+      <tr>
+        <td>Date of Birth:</td>
+        <td><input type="date" name="dob" required></td>
+      </tr>
+
+      <tr>
+        <td>Gender:</td>
+        <td>
+          <input type="radio" name="gender" value="Male"> Male
+          <input type="radio" name="gender" value="Female"> Female
+          <input type="radio" name="gender" value="Other"> Other
+        </td>
+      </tr>
+
+      <tr>
+        <td>Email:</td>
+        <td><input type="email" name="email" required></td>
+      </tr>
+
+      <tr>
+        <td>Phone Number:</td>
+        <td><input type="tel" name="phone" required></td>
+      </tr>
+
+      <tr>
+        <td>Address:</td>
+        <td><textarea name="address" rows="3" cols="40" required></textarea></td>
+      </tr>
+
+      <tr>
+        <td>Family Income (Annual):</td>
+        <td><input type="text" name="income" required></td>
+      </tr>
+
+      <tr>
+        <td>Course Applied For:</td>
+        <td>
+          <select name="course" required>
+            <option value="">-- Select Course --</option>
+            <option>B.Tech</option>
+            <option>B.Sc</option>
+            <option>B.A</option>
+            <option>MBA</option>
+            <option>Other</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Upload Passport Size Photo:</td>
+        <td><input type="file" name="photo" accept="image/*" required></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center"><b>Educational Qualifications</b></td>
+      </tr>
+
+      <tr>
+        <td colspan="2">
+          <table border="1" width="100%" cellpadding="8">
+            <tr>
+              <th>Qualification</th>
+              <th>Board/University</th>
+              <th>Year of Passing</th>
+              <th>Percentage/GPA</th>
+            </tr>
+            <tr>
+              <td><input type="text" name="qualification1" placeholder="10th"></td>
+              <td><input type="text" name="board1"></td>
+              <td><input type="text" name="year1"></td>
+              <td><input type="text" name="marks1"></td>
+            </tr>
+            <tr>
+              <td><input type="text" name="qualification2" placeholder="12th"></td>
+              <td><input type="text" name="board2"></td>
+              <td><input type="text" name="year2"></td>
+              <td><input type="text" name="marks2"></td>
+            </tr>
+            <tr>
+              <td><input type="text" name="qualification3" placeholder="Graduation"></td>
+              <td><input type="text" name="board3"></td>
+              <td><input type="text" name="year3"></td>
+              <td><input type="text" name="marks3"></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Why do you deserve this scholarship?</td>
+        <td><textarea name="reason" rows="4" cols="40" required></textarea></td>
+      </tr>
+
+      <tr>
+        <td>Upload Signature:</td>
+        <td><input type="file" name="signature" accept="image/*" required></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center">
+          <input type="submit" value="Submit Application">
+        </td>
+      </tr>
+
+    </table>
+
+  </form>
+
+</body>
+</html>
