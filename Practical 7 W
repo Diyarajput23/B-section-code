@@ -1,0 +1,263 @@
+HTML Code: (Home Page)
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Gallery</title>
+        <link rel="stylesheet" href="P7.1.CSS">
+    </head>
+    <body>
+       <h2 align="center"><b>Domestic Animals</b></h2>
+       <h4 align="center">Learn about our common domestic Animals</h4>
+    <hr></hr>
+<table border="1" cellspacing="15" cellpadding="5" background="https://papers.co/wallpaper/papers.co-sd35-green-olive-leaf-gradation-blur-41-iphone-wallpaper.jpg" align="center" height="50" width="1250"> 
+    <tr>
+        <th><a href="practical7.1.html>Home</a></th>
+        <th><a href="p7.2.html">Cat</a></th> 
+        <th><a href="P7.3.html">Dog</a></th> 
+        <th><a href="P7.4.html">Rabbit</a></th> 
+        <th><a href="P7.5.html">Horse</a></th> 
+        <th><a href="P7.6.html">Ferret</a></th>            
+        <th><a href="P7.7.html">Alpaca</a></th> 
+    </tr> 
+    </table>
+    <img src="https://media.istockphoto.com/id/1417882544/photo/large-group-of-cats-and-dogs-looking-at-the-camera-on-blue- background.jpg?s=612x612&w=0&k=20&c=kGKANSIFdNfhBJMipyuaKU4BcVE1oELWev9lF2ickE0= " height="500" width="1550" align="center"> 
+    <h2 align="center"><b>About Us</b></h2> 
+    </body>
+</html>
+
+
+
+
+CSS Code : (Home Page)
+body{ 
+    background: radial-gradient(rgb(130, 93, 223),rgba(213, 1, 255, 0.719),rgba(54, 54, 50, 0.932)); 
+} 
+h2{ 
+    text-align: center;     
+    text-decoration: dashed;     
+    text-shadow: 0vmax;     
+    font-weight: bolder 
+} 
+h4{     
+    text-align: center; 
+    text-shadow: 0vmax;    
+    font-style: italic; 
+} 
+image{ 
+    text-align: center; 
+} 
+h2{ 
+    text-align: center; 
+    text-decoration: underline; 
+} 
+footer{ 
+    text-align: center;     
+    text-decoration: overline; 
+}
+
+
+
+HTML Code : (cat page)
+<html>
+    <title>cat</title> 
+<link rel="stylesheet" href="cat.css" 
+<body> 
+    <table border="1" cellspacing="15" align="center" height="50" width="1280" background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQon3XNY4rfBQFmUXqA9HrUqDoBDVcule43Fg&s">
+            <tr>
+                <th><a href="practical7.1.html">Home</a></th> 
+                <th><a href="p7.2.html">Cat</a></th>
+                <th><a href="P7.3.html">Dog</a></th> 
+                <th><a href="P7.4.html">Rabbit</a></th> 
+                <th><a href="P7.5.html">Horse</a></th> 
+                <th><a href="P7.6.html">Ferret</a></th> 
+                <th><a href="P7.7.html">Alapaca</a></th>  
+            </tr> 
+        </table> 
+        <h1><b>Cat</b></h1> 
+        <img src="https://thumbs.dreamstime.com/b/collage-portraits-cats-frame-many- -cats-center-portrait-fluffy-ginger-cat-collage-237808395.jpg?w=768" height="500" width="1550" align="center"> 
+    </body> 
+</html>
+CSS Code : (Cat page)
+body{ 
+    background: radial-gradient(rgb(206, 93, 223),rgba(221, 1, 255, 0.719),rgba(54, 54, 50, 0.932)); 
+} 
+h1{ 
+    text-align: center; 
+    text-decoration: underline; 
+} 
+image{ 
+    text-align: center; }
+HTML Code: (Dog Page)
+<html>
+    <title>Dog</title> 
+<link rel="stylesheet" href="dog.css" 
+<body> 
+    <table border="1" cellspacing="15" align="center" height="50" width="1280" background="https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcQon3XNY4rfBQFmUXqA9HrUqDoBDVcule43Fg&s">
+            <tr> 
+                <th><a href="practical7.1.html">Home</a></th>
+                <th><a href="p7.2.html">Cat</a></th>
+                <th><a href="P7.3.html">Dog</a></th> 
+                <th><a href="P7.4.html">Rabbit</a></th> 
+                <th><a href="P7.5.html">Horse</a></th> 
+                <th><a href="P7.6.html">Ferret</a></th> 
+                <th><a href="P7.7.html">Alapaca</a></th>  
+            </tr> 
+        </table> 
+        <h1><b>Dog</b></h1> 
+        <img src="https://i.pinimg.com/736x/5f/df/c9/5fdfc9dcba52fa11e0f65f3dad58c366.jpg" height="500" width="1550" align="center"> 
+    </body> 
+</html>	
+
+
+CSS Code : (Dog Page)
+body{ 
+    background: radial-gradient(rgb(206, 93, 223),rgba(221, 1, 255, 0.719),rgba(54, 54, 50, 0.932)); 
+} 
+h1{ 
+    text-align: center; 
+    text-decoration: underline; 
+} 
+image{ 
+    text-align: center; 
+}
+
+
+HTML Code : (Rabbit Page)
+<html>
+    <title>Rabbit</title> 
+<link rel="stylesheet" href="rabbit.css" 
+<body> 
+    <table border="1" cellspacing="15" align="center" height="50" width="1280" background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQon3XNY4rfBQFmUXqA9HrUqDoBDVcule43Fg&s">
+            <tr> 
+                <th><a href="practical7.1.html">Home</a></th>
+                <th><a href="p7.2.html">Cat</a></th>
+                <th><a href="P7.3.html">Dog</a></th> 
+                <th><a href="P7.4.html">Rabbit</a></th> 
+                <th><a href="P7.5.html">Horse</a></th> 
+                <th><a href="P7.6.html">Ferret</a></th> 
+                <th><a href="P7.7.html">Alapaca</a></th>  
+            </tr> 
+        </table> 
+        <h1><b>Rabbit</b></h1> 
+        <img src="https://www.shutterstock.com/shutterstock/videos/1024235165/thumb/1.jpg" height="500" width="1550" align="center"> 
+    </body> 
+</html>
+
+
+CSS Code : (Rabbit Page)
+body{ 
+    background: radial-gradient(rgb(206, 93, 223),rgba(221, 1, 255, 0.719),rgba(54, 54, 50, 0.932)); 
+} 
+h1{ 
+    text-align: center; 
+    text-decoration: underline; 
+} 
+image{ 
+    text-align: center; 
+}
+
+
+HTML Code : (Horse page)
+<html>
+    <title>Horse</title> 
+<link rel="stylesheet" href="horse.css" 
+<body> 
+    <table border="1" cellspacing="15" align="center" height="50" width="1280" background="https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcQon3XNY4rfBQFmUXqA9HrUqDoBDVcule43Fg&s">
+            <tr> 
+                <th><a href="practical7.1.html">Home</a></th>
+                <th><a href="p7.2.html">Cat</a></th>
+                <th><a href="P7.3.html">Dog</a></th> 
+                <th><a href="P7.4.html">Rabbit</a></th> 
+                <th><a href="P7.5.html">Horse</a></th> 
+                <th><a href="P7.6.html">Ferret</a></th> 
+                <th><a href="jfh">Alapaca</a></th>  
+            </tr> 
+        </table> 
+        <h1><b>Horse</b></h1> 
+        <img src="https://storage.needpix.com/rsynced_images/horses-wallpaper-collage.jpg" height="500" width="1550" align="center"> 
+    </body> 
+</html>
+
+
+CSS Code : (Horse  Page)
+body{ 
+    background: radial-gradient(rgb(206, 93, 223),rgba(221, 1, 255, 0.719),rgba(54, 54, 50, 0.932)); 
+} 
+h1{ 
+    text-align: center; 
+    text-decoration: underline; 
+} 
+image{ 
+    text-align: center;
+}
+
+
+HTML Code : (Ferret Page)
+<html>
+    <title>Ferret</title> 
+<link rel="stylesheet" href="ferret.css" 
+<body> 
+    <table border="1" cellspacing="15" align="center" height="50" width="1280" background="https://encryptedtbn0.gstatic.com/images?q=tbn:ANd9GcQon3XNY4rfBQFmUXqA9HrUqDoBDVcule43Fg&s">
+            <tr> 
+                <th><a href="practical7.1.html">Home</a></th>
+                <th><a href="p7.2.html">Cat</a></th>
+                <th><a href="P7.3.html">Dog</a></th> 
+                <th><a href="P7.4.html">Rabbit</a></th> 
+                <th><a href="P7.5.html">Horse</a></th> 
+                <th><a href="P7.6.html">Ferret</a></th> 
+                <th><a href="P7.7.html">Alapaca</a></th>  
+            </tr> 
+        </table> 
+        <h1><b>Ferret</b></h1> 
+        <img src="https://64.media.tumblr.com/13aefd0eca5ed391a40bfaf043466934/ff100daf67213841-f0/s1280x1920/59737af5e16537f210cb56ee0c0b549c7b459248.png" height="500" width="1550" align="center"> 
+    </body> 
+</html>
+
+
+CSS Code : (Ferret Page)
+body{ 
+    background: radial-gradient(rgb(206, 93, 223),rgba(221, 1, 255, 0.719),rgba(54, 54, 50, 0.932)); 
+} 
+h1{ 
+    text-align: center; 
+    text-decoration: underline; 
+} 
+image{ 
+  text-align: center;
+}
+
+
+HTML Code : (Alpaca page)
+<html>
+    <title>Alpaca</title> 
+<link rel="stylesheet" href="alpaca.css" 
+<body> 
+    <table border="1" cellspacing="15" align="center" height="50" width="1280" background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQon3XNY4rfBQFmUXqA9HrUqDoBDVcule43Fg&s">
+            <tr>         
+                <th><a href="practical7.1.html">Home</a></th>
+                <th><a href="p7.2.html">Cat</a></th>
+                <th><a href="P7.3.html">Dog</a></th> 
+                <th><a href="P7.4.html">Rabbit</a></th> 
+                <th><a href="P7.5.html">Horse</a></th> 
+                <th><a href="P7.6.html">Ferret</a></th> 
+                <th><a href="P7.7.html">Alapaca</a></th>  
+            </tr> 
+        </table> 
+        <h1><b>Alpaca</b></h1> 
+        <img src="https://www.imvf.org/wp-content/uploads/2024/01/ano-internacional-camelideos.jpg" height="500" width="1550" align="center"> 
+    </body> 
+</html>
+
+
+CSS Code : (Alpaca page)
+body{ 
+    background: radial-gradient(rgb(206, 93, 223),rgba(221, 1, 255, 0.719),rgba(54, 54, 50, 0.932)); 
+} 
+h1{ 
+    text-align: center; 
+    text-decoration: underline; 
+} 
+image{ 
+    text-align: center; 
+}
+
