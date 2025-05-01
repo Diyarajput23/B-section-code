@@ -1,0 +1,106 @@
+HTML Code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="#" method="post">
+        <h2>Registration Form</h2>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label><i class="fas fa-user"></i> First Name</label>
+            <input type="text" name="first_name" placeholder="First Name" required>
+            <label><i class="fas fa-user"></i> Last Name</label>
+            <input type="text" name="last_name" placeholder="Last Name" required>
+            <label><i class="fas fa-envelope"></i> Email Address</label>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <label><i class="fas fa-phone"></i> Phone Number</label>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <label><i class="fab fa-whatsapp"></i> WhatsApp Number</label>
+            <input type="tel" name="whatsapp" placeholder="WhatsApp Number" required>
+            <label><i class="fas fa-calendar-alt"></i> Date of Birth</label>
+            <input type="date" name="dob" placeholder="dd-mm-yyyy" required>
+            <label><i class="fas fa-image"></i> Profile Picture</label>
+            <input type="file" name="profile_pic">
+            <label><i class="fas fa-venus-mars"></i> Gender</label>
+            <input type="radio" name="gender" value="male" required> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="other"> Other
+            <label><i class="fas fa-book"></i>Select you Interest</label>
+            <select name="interest" required>
+                <option value="">Select Interest</option>
+                <option value="technology">Technology</option>
+                <option value="business">Business</option>
+                <option value="science">Science</option>
+                <option value="arts">Arts</option>
+            </select>
+            <label>
+                <input type="checkbox" name="terms" required> I agree to the Terms and Conditions
+            </label>
+            <input type="submit" value="Register">
+        </fieldset>
+    </form>
+</body>
+</html>
+
+CSS Code 
+body {
+    background: linear-gradient(to bottom, rgb(255, 0, 0), pink, purple);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+h2 {
+    margin-top: 0;
+}
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    position: relative; /* To position the icon */
+}
+label i {
+    margin-right: 8px; /* Space between icon and text */
+    color: #555; /* Icon color */
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+input[type="file"] {
+    width: 100%;
+}
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
